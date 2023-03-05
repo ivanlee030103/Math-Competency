@@ -39,7 +39,7 @@ public class Main {
         sch2.setPrincipal("Sir Sundra Mukthakhir");
 
         for(int i=0; i<3; i++){
-            System.out.print("Mark of participant No." + i+1 +": ");
+            System.out.print("Mark of participant No." + (i+1) +": ");
             int mark = sc.nextInt();
             try {
                 marks2.setMark(mark, i);
